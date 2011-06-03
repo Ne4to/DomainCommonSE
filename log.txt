@@ -1,0 +1,239 @@
+ILMerge version 2.10.526.0
+Copyright (C) Microsoft Corporation 2004-2006. All rights reserved.
+ILMerge /t:winexe /log:../log.txt /internalize /targetplatform:v4,C:\Windows\Microsoft.NET\Framework\v4.0.30319 /out:Config.exe EntityObjectORM.Config.exe EntityObjectORM.ConfigLibrary.dll EntityObjectORM.dll C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.RichEdit.v10.1.Core.dll C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraEditors.v10.1.dll C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraGrid.v10.1.dll C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraGrid.v10.1.Design.dll C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.Data.v10.1.dll C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraRichEdit.v10.1.dll C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraBars.v10.1.dll C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraVerticalGrid.v10.1.dll C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraTreeList.v10.1.dll C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraLayout.v10.1.dll C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraEditors.v10.1.Design.dll C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraNavBar.v10.1.dll C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.Design.v10.1.dll C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.Utils.v10.1.dll 
+Set platform to 'v4', using directory 'C:\Windows\Microsoft.NET\Framework\v4.0.30319' for mscorlib.dll
+Running on Microsoft (R) .NET Framework v4.0.30319
+mscorlib.dll version = 4.0.0.0
+The list of input assemblies is:
+	EntityObjectORM.Config.exe
+	EntityObjectORM.ConfigLibrary.dll
+	EntityObjectORM.dll
+	C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.RichEdit.v10.1.Core.dll
+	C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraEditors.v10.1.dll
+	C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraGrid.v10.1.dll
+	C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraGrid.v10.1.Design.dll
+	C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.Data.v10.1.dll
+	C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraRichEdit.v10.1.dll
+	C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraBars.v10.1.dll
+	C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraVerticalGrid.v10.1.dll
+	C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraTreeList.v10.1.dll
+	C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraLayout.v10.1.dll
+	C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraEditors.v10.1.Design.dll
+	C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraNavBar.v10.1.dll
+	C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.Design.v10.1.dll
+	C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.Utils.v10.1.dll
+Trying to read assembly from the file 'C:\Projects\IKIT\GIS\EntityObjectORM\Release\EntityObjectORM.Config.exe'.
+Can not find PDB file. Debug info will not be available for assembly 'EntityObjectORM.Config.exe'.
+	Successfully read in assembly.
+	There were no errors reported in EntityObjectORM.Config's metadata.
+Trying to read assembly from the file 'C:\Projects\IKIT\GIS\EntityObjectORM\Release\EntityObjectORM.ConfigLibrary.dll'.
+	Successfully read in assembly.
+	There were no errors reported in EntityObjectORM.ConfigLibrary's metadata.
+Trying to read assembly from the file 'C:\Projects\IKIT\GIS\EntityObjectORM\Release\EntityObjectORM.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'EntityObjectORM.dll'.
+	Successfully read in assembly.
+	There were no errors reported in EntityObjectORM's metadata.
+Trying to read assembly from the file 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.RichEdit.v10.1.Core.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.RichEdit.v10.1.Core.dll'.
+	Successfully read in assembly.
+	There were no errors reported in DevExpress.RichEdit.v10.1.Core's metadata.
+Trying to read assembly from the file 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraEditors.v10.1.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraEditors.v10.1.dll'.
+	Successfully read in assembly.
+	There were no errors reported in DevExpress.XtraEditors.v10.1's metadata.
+Trying to read assembly from the file 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraGrid.v10.1.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraGrid.v10.1.dll'.
+	Successfully read in assembly.
+	There were no errors reported in DevExpress.XtraGrid.v10.1's metadata.
+Trying to read assembly from the file 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraGrid.v10.1.Design.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraGrid.v10.1.Design.dll'.
+	Successfully read in assembly.
+	There were no errors reported in DevExpress.XtraGrid.v10.1.Design's metadata.
+Trying to read assembly from the file 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.Data.v10.1.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.Data.v10.1.dll'.
+	Successfully read in assembly.
+	There were no errors reported in DevExpress.Data.v10.1's metadata.
+Trying to read assembly from the file 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraRichEdit.v10.1.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraRichEdit.v10.1.dll'.
+	Successfully read in assembly.
+	There were no errors reported in DevExpress.XtraRichEdit.v10.1's metadata.
+Trying to read assembly from the file 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraBars.v10.1.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraBars.v10.1.dll'.
+	Successfully read in assembly.
+	There were no errors reported in DevExpress.XtraBars.v10.1's metadata.
+Trying to read assembly from the file 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraVerticalGrid.v10.1.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraVerticalGrid.v10.1.dll'.
+	Successfully read in assembly.
+	There were no errors reported in DevExpress.XtraVerticalGrid.v10.1's metadata.
+Trying to read assembly from the file 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraTreeList.v10.1.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraTreeList.v10.1.dll'.
+	Successfully read in assembly.
+	There were no errors reported in DevExpress.XtraTreeList.v10.1's metadata.
+Trying to read assembly from the file 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraLayout.v10.1.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraLayout.v10.1.dll'.
+	Successfully read in assembly.
+	There were no errors reported in DevExpress.XtraLayout.v10.1's metadata.
+Trying to read assembly from the file 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraEditors.v10.1.Design.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraEditors.v10.1.Design.dll'.
+	Successfully read in assembly.
+	There were no errors reported in DevExpress.XtraEditors.v10.1.Design's metadata.
+Trying to read assembly from the file 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraNavBar.v10.1.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.XtraNavBar.v10.1.dll'.
+	Successfully read in assembly.
+	There were no errors reported in DevExpress.XtraNavBar.v10.1's metadata.
+Trying to read assembly from the file 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.Design.v10.1.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.Design.v10.1.dll'.
+	Successfully read in assembly.
+	There were no errors reported in DevExpress.Design.v10.1's metadata.
+Trying to read assembly from the file 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.Utils.v10.1.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'C:\Program Files\DevExpress 2010.1\Components\Sources\DevExpress.DLL\DevExpress.Utils.v10.1.dll'.
+	Successfully read in assembly.
+	There were no errors reported in DevExpress.Utils.v10.1's metadata.
+Checking to see that all of the input assemblies have a compatible PeKind.
+	EntityObjectORM.Config.PeKind = ILonly
+	EntityObjectORM.ConfigLibrary.PeKind = ILonly
+	EntityObjectORM.PeKind = ILonly
+	DevExpress.RichEdit.v10.1.Core.PeKind = ILonly
+	DevExpress.XtraEditors.v10.1.PeKind = ILonly
+	DevExpress.XtraGrid.v10.1.PeKind = ILonly
+	DevExpress.XtraGrid.v10.1.Design.PeKind = ILonly
+	DevExpress.Data.v10.1.PeKind = ILonly
+	DevExpress.XtraRichEdit.v10.1.PeKind = ILonly
+	DevExpress.XtraBars.v10.1.PeKind = ILonly
+	DevExpress.XtraVerticalGrid.v10.1.PeKind = ILonly
+	DevExpress.XtraTreeList.v10.1.PeKind = ILonly
+	DevExpress.XtraLayout.v10.1.PeKind = ILonly
+	DevExpress.XtraEditors.v10.1.Design.PeKind = ILonly
+	DevExpress.XtraNavBar.v10.1.PeKind = ILonly
+	DevExpress.Design.v10.1.PeKind = ILonly
+	DevExpress.Utils.v10.1.PeKind = ILonly
+All input assemblies have a compatible PeKind value.
+AssemblyResolver: Assembly 'EntityObjectORM.ConfigLibrary' is referencing assembly 'System.ComponentModel.Composition'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.ComponentModel.Composition'.
+Resolved assembly reference 'System.ComponentModel.Composition' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.ComponentModel.Composition.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'EntityObjectORM.ConfigLibrary' is referencing assembly 'System.Drawing'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Drawing'.
+Resolved assembly reference 'System.Drawing' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Drawing.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'EntityObjectORM' is referencing assembly 'System.Data'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Data'.
+Resolved assembly reference 'System.Data' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Data.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.Xml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Xml'.
+Resolved assembly reference 'System.Xml' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Xml.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Windows.Forms' is referencing assembly 'Accessibility'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'Accessibility'.
+Resolved assembly reference 'Accessibility' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\Accessibility.dll'. (Used referencing Module's directory.)
+Merging assembly 'EntityObjectORM.Config' into target assembly.
+Merging assembly 'EntityObjectORM.ConfigLibrary' into target assembly.
+Merging assembly 'EntityObjectORM' into target assembly.
+Merging assembly 'DevExpress.RichEdit.v10.1.Core' into target assembly.
+Merging assembly 'DevExpress.XtraEditors.v10.1' into target assembly.
+Merging assembly 'DevExpress.XtraGrid.v10.1' into target assembly.
+Merging assembly 'DevExpress.XtraGrid.v10.1.Design' into target assembly.
+Merging assembly 'DevExpress.Data.v10.1' into target assembly.
+Merging assembly 'DevExpress.XtraRichEdit.v10.1' into target assembly.
+Merging assembly 'DevExpress.XtraBars.v10.1' into target assembly.
+Merging assembly 'DevExpress.XtraVerticalGrid.v10.1' into target assembly.
+Merging assembly 'DevExpress.XtraTreeList.v10.1' into target assembly.
+Merging assembly 'DevExpress.XtraLayout.v10.1' into target assembly.
+Merging assembly 'DevExpress.XtraEditors.v10.1.Design' into target assembly.
+Merging assembly 'DevExpress.XtraNavBar.v10.1' into target assembly.
+Merging assembly 'DevExpress.Design.v10.1' into target assembly.
+Merging assembly 'DevExpress.Utils.v10.1' into target assembly.
+Duplicate type name: modifying name of the type 'DevExpress.Utils.Text.Win32Util' (from assembly 'DevExpress.Utils.v10.1') to 'DevExpress.Utils.v10.16764759.Win32Util'
+Merging assembly-level attributes from assembly 'EntityObjectORM.Config' into target assembly.
+Copying 2 Win32 Resources from assembly 'EntityObjectORM.Config' into target assembly.
+Transferring entry point 'Config.Program.Main' from assembly 'EntityObjectORM.Config' to assembly 'Config'.
+	There were no errors reported in the target assembly's metadata.
+ILMerge: Writing target assembly 'Config.exe'.
+AssemblyResolver: Assembly 'EntityObjectORM.ConfigLibrary' is referencing assembly 'System.Core'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Core'.
+Resolved assembly reference 'System.Core' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Core.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System' is referencing assembly 'System.Configuration'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Configuration'.
+Resolved assembly reference 'System.Configuration' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Configuration.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.Transactions'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Transactions'.
+Resolved assembly reference 'System.Transactions' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Transactions.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Xml' is referencing assembly 'System.Data.SqlXml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Data.SqlXml'.
+Resolved assembly reference 'System.Data.SqlXml' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Data.SqlXml.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'DevExpress.Data.v10.1' is referencing assembly 'System.Transactions'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Transactions'.
+Resolved assembly reference 'System.Transactions' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Transactions.dll'. (Used framework directory.)
+Location for referenced module 'USER32.dll' is ''
+Location for referenced module 'Gdi32.dll' is ''
+Location for referenced module 'gdiplus.dll' is ''
+Location for referenced module 'kernel32.dll' is ''
+Location for referenced module 'imm32.dll' is ''
+Location for referenced module 'User32' is ''
+Location for referenced module 'gdi32' is ''
+Location for referenced module 'MAPI32.DLL' is ''
+Location for referenced module 'Kernel32' is ''
+Location for referenced module 'UxTheme.dll' is ''
+Location for referenced module 'dwmapi.dll' is ''
+Location for referenced module 'comctl32.dll' is ''
+Location for referenced module 'SHELL32' is ''
+Location for referenced assembly 'System.Windows.Forms' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Windows.Forms.dll'
+	There were no errors reported in  System.Windows.Forms's metadata.
+Location for referenced assembly 'mscorlib' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll'
+	There were no errors reported in  mscorlib's metadata.
+Location for referenced assembly 'System.Core' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Core.dll'
+	There were no errors reported in  System.Core's metadata.
+Location for referenced assembly 'System.ComponentModel.Composition' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.ComponentModel.Composition.dll'
+	There were no errors reported in  System.ComponentModel.Composition's metadata.
+Location for referenced assembly 'System' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.dll'
+	There were no errors reported in  System's metadata.
+Location for referenced assembly 'System.Drawing' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Drawing.dll'
+	There were no errors reported in  System.Drawing's metadata.
+Location for referenced assembly 'System.Data' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Data.dll'
+	There were no errors reported in  System.Data's metadata.
+Location for referenced assembly 'System.Xml' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Xml.dll'
+	There were no errors reported in  System.Xml's metadata.
+Location for referenced assembly 'System.Design' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Design.dll'
+	There were no errors reported in  System.Design's metadata.
+Location for referenced assembly 'System.Transactions' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Transactions.dll'
+	There were no errors reported in  System.Transactions's metadata.
+Location for referenced assembly 'System.Web' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Web.dll'
+	There were no errors reported in  System.Web's metadata.
+ILMerge: Done.

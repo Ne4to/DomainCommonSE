@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B8DA72D9-6185-47E2-B2D9-5125745FE376}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DomainCommonSE.ConfigLibrary</RootNamespace>
+    <AssemblyName>DomainCommonSE.ConfigLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>DomainCommonSEKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v10.2, Version=10.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v10.2.Core, Version=10.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v10.2, Version=10.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v10.2, Version=10.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v10.2, Version=10.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v10.2, Version=10.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v10.2, Version=10.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v10.2, Version=10.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v10.2, Version=10.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v10.2, Version=10.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfigInquiry.cs" />
+    <Compile Include="ConfigSettings.cs" />
+    <Compile Include="CSharpHighlightControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CSharpHighlightControl.Designer.cs">
+      <DependentUpon>CSharpHighlightControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DbConnectControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DbConnectControl.Designer.cs">
+      <DependentUpon>DbConnectControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DbSchemeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DbSchemeControl.Designer.cs">
+      <DependentUpon>DbSchemeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DemoTreeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DemoTreeControl.Designer.cs">
+      <DependentUpon>DemoTreeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\DateTimeEditControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\DateTimeEditControl.Designer.cs">
+      <DependentUpon>DateTimeEditControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\DecimalEditControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\DecimalEditControl.Designer.cs">
+      <DependentUpon>DecimalEditControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\DoubleEditControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\DoubleEditControl.Designer.cs">
+      <DependentUpon>DoubleEditControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\Int16EditControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\Int16EditControl.Designer.cs">
+      <DependentUpon>Int16EditControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\Int32EditControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\Int32EditControl.Designer.cs">
+      <DependentUpon>Int32EditControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\Int64EditControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\Int64EditControl.Designer.cs">
+      <DependentUpon>Int64EditControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\NumberEditControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\NumberEditControl.Designer.cs">
+      <DependentUpon>NumberEditControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\SingleEditControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\SingleEditControl.Designer.cs">
+      <DependentUpon>SingleEditControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\StringEditControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\StringEditControl.Designer.cs">
+      <DependentUpon>StringEditControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditQueryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditQueryForm.Designer.cs">
+      <DependentUpon>EditQueryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DomainObjectConfigCollectionListSource.cs" />
+    <Compile Include="HighlightRichEditControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HighlightRichEditControl.Designer.cs">
+      <DependentUpon>HighlightRichEditControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConnectForm.Designer.cs">
+      <DependentUpon>ConnectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditLinkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditLinkForm.Designer.cs">
+      <DependentUpon>EditLinkForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditObjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditObjectForm.Designer.cs">
+      <DependentUpon>EditObjectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditPropertyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditPropertyForm.Designer.cs">
+      <DependentUpon>EditPropertyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InquiryDbProviderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InquiryDbProviderControl.Designer.cs">
+      <DependentUpon>InquiryDbProviderControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InquiryFileProviderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InquiryFileProviderControl.Designer.cs">
+      <DependentUpon>InquiryFileProviderControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Localization\ConnectFormLocalization.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConnectFormLocalization.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localization\EditLinkFormLocalization.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EditLinkFormLocalization.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localization\EditObjectFormLocalization.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EditObjectFormLocalization.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localization\EditPropertyFormLocalization.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EditPropertyFormLocalization.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localization\ObjectExplorerControlLocalization.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ObjectExplorerControlLocalization.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localization\PropertyControlLocalization.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PropertyControlLocalization.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localization\SaveLoginDataFormLocalization.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SaveLoginDataFormLocalization.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localization\UILocalization.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UILocalization.resx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginDataSettings.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectExplorerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ObjectExplorerControl.Designer.cs">
+      <DependentUpon>ObjectExplorerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PropertyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PropertyControl.Designer.cs">
+      <DependentUpon>PropertyControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PropertyEditRow\EditObjectQueryParameterCollectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PropertyEditRow\EditObjectQueryParameterCollectionForm.Designer.cs">
+      <DependentUpon>EditObjectQueryParameterCollectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RuntimeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RuntimeControl.Designer.cs">
+      <DependentUpon>RuntimeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaveLoginDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveLoginDataForm.Designer.cs">
+      <DependentUpon>SaveLoginDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlHighlightControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SqlHighlightControl.Designer.cs">
+      <DependentUpon>SqlHighlightControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SQLQueryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SQLQueryControl.Designer.cs">
+      <DependentUpon>SQLQueryControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.cs" />
+    <Compile Include="UndoRedo\Command.cs" />
+    <Compile Include="UndoRedo\ObjectQueryParameterCollectionAddItemCommand.cs" />
+    <Compile Include="UndoRedo\ObjectQueryParameterCollectionDeleteItemCommand.cs" />
+    <Compile Include="UndoRedo\UndoRedoManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ConnectForm.ru.resx">
+      <DependentUpon>ConnectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSharpHighlightControl.resx">
+      <DependentUpon>CSharpHighlightControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DbConnectControl.resx">
+      <DependentUpon>DbConnectControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DbSchemeControl.resx">
+      <DependentUpon>DbSchemeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemoTreeControl.resx">
+      <DependentUpon>DemoTreeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\DateTimeEditControl.resx">
+      <DependentUpon>DateTimeEditControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\DecimalEditControl.resx">
+      <DependentUpon>DecimalEditControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\DoubleEditControl.resx">
+      <DependentUpon>DoubleEditControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\Int16EditControl.resx">
+      <DependentUpon>Int16EditControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\Int32EditControl.resx">
+      <DependentUpon>Int32EditControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\Int64EditControl.resx">
+      <DependentUpon>Int64EditControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\NumberEditControl.resx">
+      <DependentUpon>NumberEditControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\SingleEditControl.resx">
+      <DependentUpon>SingleEditControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\StringEditControl.resx">
+      <DependentUpon>StringEditControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditLinkForm.ru.resx">
+      <DependentUpon>EditLinkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditObjectForm.ru.resx">
+      <DependentUpon>EditObjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPropertyForm.ru.resx">
+      <DependentUpon>EditPropertyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditQueryForm.resx">
+      <DependentUpon>EditQueryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HighlightRichEditControl.resx">
+      <DependentUpon>HighlightRichEditControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConnectForm.resx">
+      <DependentUpon>ConnectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditLinkForm.resx">
+      <DependentUpon>EditLinkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditObjectForm.resx">
+      <DependentUpon>EditObjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPropertyForm.resx">
+      <DependentUpon>EditPropertyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InquiryDbProviderControl.resx">
+      <DependentUpon>InquiryDbProviderControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InquiryFileProviderControl.resx">
+      <DependentUpon>InquiryFileProviderControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\ConnectFormLocalization.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ConnectFormLocalization.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\EditLinkFormLocalization.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EditLinkFormLocalization.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\EditObjectFormLocalization.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EditObjectFormLocalization.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\EditPropertyFormLocalization.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EditPropertyFormLocalization.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\ObjectExplorerControlLocalization.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ObjectExplorerControlLocalization.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\PropertyControlLocalization.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PropertyControlLocalization.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\PropertyControlLocalization.ru.resx" />
+    <EmbeddedResource Include="Localization\SaveLoginDataFormLocalization.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SaveLoginDataFormLocalization.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\UILocalization.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UILocalization.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.ru.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ObjectExplorerControl.resx">
+      <DependentUpon>ObjectExplorerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ObjectExplorerControl.ru.resx">
+      <DependentUpon>ObjectExplorerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropertyControl.resx">
+      <DependentUpon>PropertyControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropertyEditRow\EditObjectQueryParameterCollectionForm.resx">
+      <DependentUpon>EditObjectQueryParameterCollectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RuntimeControl.resx">
+      <DependentUpon>RuntimeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveLoginDataForm.resx">
+      <DependentUpon>SaveLoginDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsForm.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SqlHighlightControl.resx">
+      <DependentUpon>SqlHighlightControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQLQueryControl.resx">
+      <DependentUpon>SQLQueryControl.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DomainCommonSEKey.snk" />
+    <None Include="Properties\DataSources\EntityObjectORM.DbCommon.DbCommonScheme.datasource" />
+    <None Include="Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DomainCommonSE\DomainCommonSE.csproj">
+      <Project>{CC70DCC3-5D5F-48BA-9A38-ED004CBCBB9E}</Project>
+      <Name>DomainCommonSE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
