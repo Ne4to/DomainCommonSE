@@ -1,0 +1,2 @@
+# [deprecated] DomainCommonSE
+simple ORM
